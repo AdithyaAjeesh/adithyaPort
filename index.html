@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons.min.css' rel="stylesheet">
+    <link rel="stylesheet"  href="index.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("WsB_PVSuXC_IW5xNu");
+   })();
+</script>
+</head>
+<body>
+    <header class="header">
+<a href="#" class="logo">Adithya Ajeesh TK</a>
+<i class="bx bx-menu" id="menu-icon"></i>
+<nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Skill</a>
+    <a href="#portfolio">Projects</a>
+    <a href="#contact">Contact</a>
+     
+</nav>
+ </header>  
+ <section class="home" id="home">
+<div class= "home-content">
+    <h3 class="read">Hi i am</h3>
+    <h1 class="name">Adithya Ajeesh TK</h1>
+    <h3 class="read">And  I'am  a<span>Junior  Fullstack  Developer</span>
+    </h3>
+    <p></p>
+     <a href="#" class="btn">Download Cv</a>
+
+</div>
+<div class="home-img">
+    <img id="imgg" src="WhatsApp Image 2023-10-16 at 14.20.38_f92ba54c.jpg" alt="">
+
+</div>
+ </section>
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="" alt="">
+
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About<span>Me</span></h2> 
+        <h2 class="name">FullstackDeveloper</h2>
+        <p class="read">
+            Hi iam am a Junior full stack developer and i have only compleated my 12th graduation 
+            but my Skills they speak for me
+        </p>
+       <h2> <span>Age:</span>18</h2>
+
+        <h2><span>Gender:</span>Male</h2>
+
+        <h2><span>Languages:</span>English, Hindi, Malayalam</h2>
+
+        <h2><span>Skills:</span>Web Designing, Web Development</h2>
+
+        <h2><span>Nationality:</span>Indian</h2>
+</section>
+<section class="services" id="services">
+    <h2 class="heading">My<span>Skills</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Development</h3>
+            <p>I got my skills by going to an Institution called Bridgoen</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Design</h3>
+            <p>I got my skills by going to an Institution called Bridgoen</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest<span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="designer_portfolio_website_tubik.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Celebrity Means Art</h4>
+                <p>Celebrity Art that you might Want</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Screen Shot 2019-03-14 at 1.12.06 PM.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4>MDZ Shopping Site</h4>
+                    <p>Shop Anything You Want</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="designs.webp" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Design.AI</h4>
+                        <p>Design Anything with AI</p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                    </div>
+                    
+    </div>
+</section>
+
+ <section class="contact" id="contact">
+    <h2 class="heading">contact<span>Me!</span></h2>
+
+        <div class="input-box">
+          
+            <input type="text" placeholder="FullName" id="name">
+            <input id="email" type="email" placeholder="Email Address">
+
+        </div>
+        <div class="input-box">
+           
+            <input type="number" placeholder="Mobile Number" id="mobile">
+            <input id="emailsub" type="text" placeholder="Email subject">
+
+        </div>
+        <textarea class="form-control" id="message" rows="3"></textarea>
+<button class="btn btn-primary" onclick="sendMail()">Send</button>
+</section>
+
+
+
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>Made by Adithya Ajeesh</p>
+    </div>
+    <div class="footr-iconTop">
+        <a href="https://www.instagram.com/accounts/login/"><i><img class="imgin" src="Instagram-Logo.wine.svg" alt=""></i></a>
+        <a href="https://www.linkedin.com/?original_referer=https%3A%2F%2Fwww.linkedin.com%2F"><i><img class="imgln"  src="LinkedIn-Icon-Logo.wine.svg" alt=""></i></a>
+        <a href="https://github.com/"><i><img class="imggi"  src="github_PNG72.webp" alt=""></i></a>
+        <a href="https://twitter.com/"><i><img class="imgtw"  src="logo-black.png.twimg.1920.png" alt=""></i></a>
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+</footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
